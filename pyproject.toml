@@ -63,3 +63,6 @@ select = ["E", "F", "W", "B", "C4", "SIM", "N", "UP", "D", "PTH", "T20"]
 combine-as-imports = true
 force-sort-within-sections = true
 case-sensitive = true
+
+[tool.ruff.lint.per-file-ignores]
+"src/ucp_sdk/**/*.py" = ["D", "E501"]
